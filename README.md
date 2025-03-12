@@ -29,3 +29,7 @@ Verkabelung auf der Unterseite:
 
 
 # Informationen zur Konfiguration des USB-C Ports
+
+Die VBUS-Versorgungsleitung eines USB-C Kabels ist standardmäßig spannungsfrei. Das ist grundsätzlich anders als bei USB-A oder USB-B Verbindungen. 
+Damit USB-C Netzteile eine Spannung ausgeben, muss diesem über einen sogenannten CC (Configuration Channel) mittgeteilt werden, das ein Gerät angeschlossen ist. Um eine Spannung von 5V zu erhalten, reichen zwei 5.1kOhm Widerstände zwischen CC1/CC2 und GND.
+Diese sind praktischerweise auf USB-C Breakout Boards direkt verbaut. 
